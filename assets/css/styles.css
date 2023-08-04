@@ -1,0 +1,58 @@
+.container {
+    width: 50%;
+    border-radius: 10px;
+    background-color: #d3dbdf;
+    padding: 30px 80px;
+    margin: auto;
+}
+
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    border-radius: 5px;
+    margin: auto;
+    text-align:left;
+    font-family: arial;
+    padding: 18px 0 10px 0 ;
+}
+ 
+.main {
+    padding: 0 16px;
+}
+ 
+.main::after {
+    color: #000;ontent: "";
+    clear: both;
+    display: table;
+}
+ 
+p {
+    color: rgb(144, 131, 131);
+    font-size: 13px;
+    text-align:left;
+    margin-left:1%;
+}
+
+.tim {
+    width:330px;
+    padding:20px 0 0 10px ;
+}
+
+.r {
+    float:left;
+}
+
+.heading {
+    padding-left: 15px;
+    display:inline-block;
+    line-height: 1.8;
+}
+
+.dot {
+   float:right;
+   padding-right:7px
+   
+}
+
