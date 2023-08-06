@@ -46,12 +46,40 @@ p {
 .heading {
     padding-left: 15px;
     display:inline-block;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
-.dot {
+.fa-ellipsis-vertical {
    float:right;
-   padding-right:7px
-   
+   padding-right: 22px;
+   margin-top: 8px;
+   color: rgb(144, 131, 131);
+   font-size:20px;
 }
+
+.fa-heart {
+    float:left;
+    padding-left: 18px;
+    color: rgb(144, 131, 131);
+    font-size:19px;
+}
+
+.fa-share-nodes {
+    margin-left: 20px;
+    color: rgb(144, 131, 131);
+    font-size:19px;
+}
+
+.fa-angle-down {
+    float:right;
+    margin-right: 23px;
+    color: rgb(144, 131, 131);
+    font-size:15px;
+}
+
+.fa-heart, .fa-share-nodes, .fa-angle-down {
+    padding-bottom:8px;
+    padding-top: 15px;
+}
+
 
