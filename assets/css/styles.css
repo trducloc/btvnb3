@@ -28,12 +28,24 @@
 
 .logo {
     float:left;
+    width:50px; 
+    height:50px;
+    padding-left:20px; 
+    margin-bottom:16px;
 }
 
-.heading {
+.heading1, .heading2 {
     padding-left: 15px;
     display:inline-block;
     line-height: 1.6;
+    font-size:15px;
+}
+.heading2{
+    color:rgb(144, 131, 131);
+}
+.img-food{
+    width:100%; 
+    height:230px;
 }
 
 .fa-ellipsis-vertical {
@@ -64,7 +76,7 @@
     font-size:15px;
 }
 
-.fa-heart, .fa-share-nodes, .fa-angle-down {
-    padding-bottom:8px;
-    padding-top: 15px;
+.footer {
+    padding-bottom:6px;
+    padding-top: 18px;
 }
