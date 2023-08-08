@@ -17,29 +17,16 @@
     font-family: arial;
     padding: 18px 0 10px 0 ;
 }
- 
-.main {
-    padding: 0 16px;
-}
-.main::after {
-    color: #000;ontent: "";
-    clear: both;
-    display: table;
-}
- 
-p {
+
+.title {
     color: rgb(144, 131, 131);
-    font-size: 13px;
+    font-size:14.25px;
     text-align:left;
     margin-left:1%;
+    padding: 0 16px;
 }
 
-.tim {
-    width:330px;
-    padding:20px 0 0 10px ;
-}
-
-.r {
+.logo {
     float:left;
 }
 
@@ -81,5 +68,3 @@ p {
     padding-bottom:8px;
     padding-top: 15px;
 }
-
-
